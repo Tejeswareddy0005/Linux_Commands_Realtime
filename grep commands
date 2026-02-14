@@ -1,3 +1,11 @@
 If you want to check a number/word in a file by using grep:
-grep "8080" server.xml
+grep "8080" jenkins.service
 grep "search_word" file_name
+Example Command:
+[root@Jenkins system]# grep "8080" jenkins.service
+Environment="JENKINS_PORT=8080"
+
+If you want to check a number/word in a file by using grep and line number:
+Example Command:
+[root@Jenkins system]# grep -n "8080" jenkins.service
+output: 72:Environment="JENKINS_PORT=8080"
