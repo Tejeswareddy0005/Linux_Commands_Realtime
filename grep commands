@@ -1,0 +1,3 @@
+If you want to check a number/word in a file by using grep:
+grep "8080" server.xml
+grep "search_word" file_name
