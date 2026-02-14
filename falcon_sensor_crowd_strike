@@ -1,0 +1,17 @@
+Falcon-Sensor :  
+
+Status check of falcon-sensor:  
+systemctl status falcon-sensor  
+
+Checks Falcon-Sensor Version 
+/opt/CrowdStrike/falconctl -g --version  
+
+Checks Falcon-Sensor Version 
+/opt/CrowdStrike/falconctl -g --version 
+rpm -qa | grep falcon 
+
+Result:
+falcon-sensor-7.28.0-18108.el9.x86_64  
+
+/opt/CrowdStrike/falconctl -g --backend 
+result : backend=kernel.
