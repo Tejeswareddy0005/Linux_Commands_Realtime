@@ -1,0 +1,13 @@
+To check the Details of IP & Domain Name:
+
+Dig Command gives us the record Type,TTL
+dig google.com
+
+
+nslookup domain_name
+
+nslookup google.com
+
+
+
+
