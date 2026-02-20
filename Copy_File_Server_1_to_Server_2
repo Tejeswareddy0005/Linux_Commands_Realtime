@@ -1,0 +1,3 @@
+
+
+scp tomcat.sh root@172.31.16.239:/root/tomcat.sh
